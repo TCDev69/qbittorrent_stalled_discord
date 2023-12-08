@@ -3,7 +3,7 @@
 When a torrent stalled it automatically decrease his priority and send an embed using a webhook to Discord
 
 ## Setup:
-### change line 11-16
+### Change line 11-16
 ```py
 #################################################
 webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx'
@@ -14,7 +14,7 @@ quser="admin",
 qpass="adminadmin",
 #################################################
 ```
-### install requirements
+### Install requirements
 ```
 sh ./reqs.sh
 ```
