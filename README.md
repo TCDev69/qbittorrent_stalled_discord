@@ -26,12 +26,12 @@ systemctl enable stall.service
 ```
 
 ## Run
-### from systemctl:
+### From systemctl:
 ```
 systemctl start stall.service
 ```
 
-### from terminal:
+### From terminal:
 ```
 python3 main.py
 ```
