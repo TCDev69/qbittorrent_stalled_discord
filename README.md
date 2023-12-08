@@ -15,12 +15,12 @@ qpass="adminadmin",
 #################################################
 ```
 ### install requirements
-```sh
+```
 sh ./reqs.sh
 ```
 
 ## Run on startup:
-```sh
+```
 cp ./stall.service /etc/systemd/system/stall.service
 systemctl enable stall.service
 ```
@@ -32,6 +32,6 @@ systemctl start stall.service
 ```
 
 ### from terminal:
-```sh
+```
 python3 main.py
 ```
