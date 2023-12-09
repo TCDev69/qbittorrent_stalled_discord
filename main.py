@@ -71,7 +71,7 @@ def decrease_prio(qbt_client, data):
             hook.add_embed(embed)
             hook.execute()
             
-        elif torrent.state == 'downloading' and torrent.info.num_seeds == 0 and torrent.info.time_active > 1800:
+        elif torrent.state == 'downloading' and torrent.info.num_seeds == 0 and torrent.info.time_active > 300:
             logging.info("      - action: %s", "setting bottom priority")
             qbt_client.torrents.bottom_priority(torrent_hashes=torrent.hash)
             
