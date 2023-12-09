@@ -18,6 +18,11 @@ qpass="adminadmin",
 ```
 sh ./reqs.sh
 ```
+### Change username
+Open the file with `nano ./stall.service` and change `/home/USERNAME` (use /root/ if user = root) 
+```
+ExecStart=/usr/bin/python3 /home/USERNAME/qbittorrent_stalled_discord_main/stall.py
+```
 
 ## Run on startup:
 ```
