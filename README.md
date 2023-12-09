@@ -27,13 +27,13 @@ Move the file `main.py` into ~/
 ```sh
 mv ./main.py ~/
 ```
-
+# 
 ## Run on startup:
 ```
 cp ./stall.service /etc/systemd/system/stall.service
 systemctl enable stall.service
 ```
-
+# 
 ## Run
 ### From systemctl:
 ```
