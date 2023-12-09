@@ -2,7 +2,7 @@
 Description=qbit_stalled
 
 [Service]
-ExecStart=/usr/bin/python3 /home/USERNAME/stall.py
+ExecStart=/usr/bin/python3 /home/USERNAME/qbittorrent_stalled_discord_main/stall.py
 
 [Install]
 WantedBy=multi-user.target
