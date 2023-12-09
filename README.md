@@ -23,7 +23,7 @@ Open the file with `nano ./stall.service` and change `/home/USERNAME` (use /root
 ```
 ExecStart=/usr/bin/python3 /home/USERNAME/stall.py
 ```
-Move the file `main.py` into ~/
+## Move the file `main.py` into ~/
 ```sh
 mv ./main.py ~/
 ```
