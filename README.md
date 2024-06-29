@@ -16,7 +16,7 @@ qpass="adminadmin",
 ```
 ### Install requirements
 ```
-sh ./reqs.sh
+pip3 install -r requirements.txt
 ```
 ### Change username
 Open the file with `nano ./stall.service` and change `/home/USERNAME` (use /root/ if user = root) 
