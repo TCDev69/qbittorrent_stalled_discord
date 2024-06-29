@@ -8,7 +8,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 import datetime
 
 #################################################
-webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx' #Discord webhook
+webhook_url = 'https://discord.com/api/webhooks/xxx/xxx' #Discord webhook
 id = 'xxxxxxxxxxxxxxxxxx'    #Discord username ID
 qhost="http://localhost/",   #Qbittorrent ip
 qport=int("8080"),           #Qbittorrent port
