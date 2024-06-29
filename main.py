@@ -8,8 +8,12 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 import datetime
 
 #################################################
-webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx'
-id = 'xxxxxxxxxxxxxxxxxx'
+webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx' #Discord webhook
+id = 'xxxxxxxxxxxxxxxxxx'    #Discord username ID
+qhost="http://localhost/",   #Qbittorrent ip
+qport=int("8080"),           #Qbittorrent port
+quser="admin",               #Qbittorrent username
+qpass="adminadmin",          #Qbittorrent password
 #################################################
 
 logging.basicConfig(
@@ -21,10 +25,10 @@ def fix_stalled():
     try:
         logging.info("--- START fix_stalled START ---")
         conn_info = dict(
-            host="http://localhost/",
-            port=int("8080"),
-            username="admin",
-            password="adminadmin",
+            host=qhost,
+            port=int(qport),
+            username=quser,
+            password=qpass,
         )
         logging.info("Connecting...")
         qbt_client = qbittorrentapi.Client(**conn_info)
