@@ -8,10 +8,10 @@ When a torrent stalled it automatically decrease his priority and send an embed 
 #################################################
 webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx'
 id = 'xxxxxxxxxxxxxxxxxx'
-qhost="http://localhost/",
-qport=int("8080"),
-quser="admin",
-qpass="adminadmin",
+qhost="http://localhost/",   //Qbittorrent ip
+qport=int("8080"),           //Qbittorrent port
+quser="admin",               //Qbittorrent username
+qpass="adminadmin",          //Qbittorrent password
 #################################################
 ```
 ### Install requirements
