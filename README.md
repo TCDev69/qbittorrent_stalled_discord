@@ -30,7 +30,7 @@ mv ./main.py ~/
 
 ## Run on startup:
 ```
-cp ./stall.service /etc/systemd/system/stall.service
+sudo cp ./stall.service /etc/systemd/system/stall.service
 systemctl enable stall.service
 ```
 
