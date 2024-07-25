@@ -8,7 +8,7 @@ When a torrent stalled it automatically decrease his priority and send an embed 
 git clone https://github.com/TCDev69/qbittorrent_stalled_discord.git
 cd qbittorrent_stalled_discord
 ```
-### Change line 11-16
+### Change line 11-16 (main.py)
 ```py
 #################################################
 webhook_url = 'https://discord.com/api/webhooks/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx' #Discord webhook
