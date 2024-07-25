@@ -3,6 +3,11 @@
 When a torrent stalled it automatically decrease his priority and send an embed using a webhook to Discord
 
 ## Setup:
+### Download
+```
+git clone https://github.com/TCDev69/qbittorrent_stalled_discord.git
+cd qbittorrent_stalled_discord
+```
 ### Change line 11-16
 ```py
 #################################################
