@@ -11,7 +11,7 @@ import datetime
 webhook_url = 'https://discord.com/api/webhooks/xxx/xxx' #Discord webhook
 id = 'xxxxxxxxxxxxxxxxxx'    #Discord username ID
 qhost="http://localhost/",   #Qbittorrent ip
-qport=int("8080"),           #Qbittorrent port
+qport="8080",           #Qbittorrent port
 quser="admin",               #Qbittorrent username
 qpass="adminadmin",          #Qbittorrent password
 #################################################
@@ -26,7 +26,7 @@ def fix_stalled():
         logging.info("--- START fix_stalled START ---")
         conn_info = dict(
             host=qhost,
-            port=int(qport),
+            port=qport,
             username=quser,
             password=qpass,
         )
