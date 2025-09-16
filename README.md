@@ -1,6 +1,6 @@
 # Stalled Torrents
 
-When a torrent stalled it automatically decrease his priority and send an embed using a webhook to Discord
+When a torrent freezes, its priority is automatically lowered and an embed message is sent using a webhook to Discord.
 
 ## Setup:
 ### Download
